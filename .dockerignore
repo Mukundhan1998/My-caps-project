@@ -1,8 +1,3 @@
-<<<<<<< HEAD
 node modules
 Dockerfile
 docker-compose.yml
-=======
-node_modules
-.git
->>>>>>> 4db4230b482ffcaacf02fcbb7bf3ed212e762956
