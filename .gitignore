@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 node modules
 build
 .env
+=======
+node_modules
+*.log
+>>>>>>> 4db4230b482ffcaacf02fcbb7bf3ed212e762956

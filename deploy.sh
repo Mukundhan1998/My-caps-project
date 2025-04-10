@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 
 echo "Deployment Branch: $BRANCH_NAME"
 
@@ -13,3 +14,7 @@ elif [ "$BRANCH_NAME" == "main" ]; then
   docker pull mukundhan20/prod:latest
   docker run -d -p 80:80 --name my-don-container mukundhan20/prod:latest
 fi
+=======
+docker pull mukundhan20/devops-app:dev
+docker run -d -p 80:80 mukundhan20/devops-app:dev
+>>>>>>> 4db4230b482ffcaacf02fcbb7bf3ed212e762956
