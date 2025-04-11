@@ -31,10 +31,10 @@ pipeline {
             steps {
                 sh '''
                     scp -o StrictHostKeyChecking=no -i /var/lib/jenkins/.ssh/don1.pem deploy.sh ubuntu@54.151.193.180:/home/ubuntu/
-                    
+
                     ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/.ssh/don1.pem ubuntu@54.151.193.180 "BRANCH_NAME=$BRANCH_NAME bash deploy.sh"
                 '''
             }
-        }
-    }
+        }
+    }
 }
